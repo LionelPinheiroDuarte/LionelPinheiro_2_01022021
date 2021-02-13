@@ -1,0 +1,7 @@
+footer li a{
+    color:black;
+}
+
+footer li a::first-letter{
+    text-transform: uppercase;
+}
