@@ -1,0 +1,8 @@
+#popular-lodging{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:3% 4%;
+    border-radius: 4%;
+    background-color: var(--reservia-background-color);
+}

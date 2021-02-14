@@ -1,4 +1,7 @@
 @import 'variables.css';
+@import 'information.css';
+@import 'lodging.css';
+@import 'popular-loding.css';
 @import 'footer.css';
 
 @font-face{
@@ -43,5 +46,46 @@ h1{
 }
 
 p {
+    font-weight: bold;
+}
+header{
+    display:flex;
+}
+body{
+    margin:auto;
+    width: 960px;
+}
+section{
+    margin-bottom: 50px;
+}
+
+section a {
+    font-weight: bold;
+}
+section a:hover {
+    font-weight: bold;
+}
+img{
+    width: 100px;
+    height: 50px;
+}
+article{
+    height: 250px;
+    width: 250px;
+    padding: 2%;
+    box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
+        -webkit-box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
+        -moz-box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+article span{
+    font-weight: bold;
+}
+article p{
+    color: gray;
+}
+article p span{
+    color: black;
     font-weight: bold;
 }

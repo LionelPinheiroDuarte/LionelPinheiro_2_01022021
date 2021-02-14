@@ -13,55 +13,118 @@
             <img src="./img/logo/Reservia@3x.png" alt="logo Reservia"/>
         </h1>
         <nav>
-            <a href="">hébergements</a>
-            <a href="">activités</a>
+            <a href="#lodging">hébergements</a>
+            <a href="#popular-lodging">activités</a>
             <a href="">s'incrire</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="information">
             <p>trouvez votre hébergement pour les vacances de rêve</p>
             <p>en plein centre ville ou en nature</p>
             <section>
-                <p>filtres</p>
-                <ul>
-                    <li>
-                        <i class="fas fa-money-bill-wave"></i>
-                        <button>économique</button>
-                    </li>
-                    <li>
-                        <i class="fas fa-child"></i>
-                        <button>familial</button>
-                    </li>
-                    <li>
-                        <i class="fas fa-heart"></i>
-                        <button>romantique</button>
-                    </li>
-                    <li>
-                        <i class="fas fa-dog"></i>
-                        <button>animaux autorisés</button>
-                    </li>
-                </ul>
+                <form>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text">
+                    <button type="submit">Rechercher</button>
+                </form>
+                <div id="filter">
+                    <p>filtres</p>
+                    <ul>
+                        <li>
+                            <i class="fas fa-money-bill-wave"></i>
+                            <button>économique</button>
+                        </li>
+                        <li>
+                            <i class="fas fa-child"></i>
+                            <button>familial</button>
+                        </li>
+                        <li>
+                            <i class="fas fa-heart"></i>
+                            <button>romantique</button>
+                        </li>
+                        <li>
+                            <i class="fas fa-dog"></i>
+                            <button>animaux autorisés</button>
+                        </li>
+                    </ul>
+                </div>
             </section>
             <p><i class="fas fa-info"></i>plus de 500 logements sont disponibles dans cette ville.</p>
-            <form>
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="text">
-                <button type="submit">Rechercher</button>
-            </form>
         </section>
-        <section>
+        <section id="lodging">
             <h2>hébergement à Marseille</h2>
-            <article>
-                <img src="./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
-                <h3>titre</h3>
-                <p>description 25<span>&#8364;</span>  </p>
-                <i class="fas fa-star"></i>
-            </article>
+            <div id="articles">
+                <article>
+                    <img class="img-top-border-radius img-square" src="./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                    <h3>titre</h3>
+                    <p>description <span>25&#8364;</span>  </p>
+                    <i class="fas fa-star"></i>
+                </article>
+                <article>
+                    <img class="img-top-border-radius img-square" src="./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                    <h3>titre</h3>
+                    <p>description <span>25&#8364;</span>  </p>
+                    <i class="fas fa-star"></i>
+                </article>
+                <article>
+                    <img class="img-top-border-radius img-square" src="./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                    <h3>titre</h3>
+                    <p>description <span>25&#8364;</span>  </p>
+                    <i class="fas fa-star"></i>
+                </article>
+                <article>
+                    <img class="img-top-border-radius img-square" src="./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                    <h3>titre</h3>
+                    <p>description <span>25&#8364;</span>  </p>
+                    <i class="fas fa-star"></i>
+                </article>
+                <article>
+                    <img class="img-top-border-radius img-square" src="./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                    <h3>titre</h3>
+                    <p>description <span>25&#8364;</span>  </p>
+                    <i class="fas fa-star"></i>
+                </article>
+                <article>
+                    <img class="img-top-border-radius img-square" src="./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                    <h3>titre</h3>
+                    <p>description <span>25&#8364;</span>  </p>
+                    <i class="fas fa-star"></i>
+                </article>
+            </div>
+            <div>
+                <a href="">Afficher plus</a>
+            </div>
         </section>
-        <section>
-            <h2>les plus populaires</h2>
-            <i class="fas fa-chart-line"></i>
+        <section id="popular-lodging"> 
+            <div>
+                <h2>les plus populaires</h2>
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <article>
+                <img src="./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+                <div>
+                   <h3>titre</h3>
+                    <p>description 25<span>&#8364;</span>  </p>
+                    <i class="fas fa-star"></i> 
+                </div>
+            </article>
+            <article>
+                <img src="./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+                <div>
+                   <h3>titre</h3>
+                <p>description 25<span>&#8364;</span>  </p>
+                <i class="fas fa-star"></i> 
+                </div>
+            </article>
+            <article>
+                <img src="./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+                <div>
+                    <h3>titre</h3>
+                    <p>description 25<span>&#8364;</span>  </p>
+                    <i class="fas fa-star"></i> 
+                </div>
+            </article>
         </section>
         <section>
             <h2>activités à Marseille</h2>
@@ -90,6 +153,7 @@
                 <li><a href="">nous contacter</a></li>
             </ul>
         </div>
+        <div>   </div>
     </footer>
 </body>
 </html>

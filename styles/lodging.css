@@ -1,0 +1,20 @@
+#lodging{
+    padding:3% 4%;
+    border-radius: 4%;
+    background-color: var(--reservia-background-color);
+}
+.img-top-border-radius{
+    border-radius: 10% 10% 0% 0%;
+}
+#articles{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+article{
+    margin-bottom: 2%;
+}
+.img-square{
+    width: 200px;
+    height: 100px;
+}

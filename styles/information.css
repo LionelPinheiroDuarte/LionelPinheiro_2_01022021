@@ -1,0 +1,20 @@
+#information{
+    padding:3% 4%;
+}   
+button{
+    background-color:#ffffff;
+    border: 2px solid gray;
+    padding: 1%;
+}
+#filter{
+    display: flex;
+}
+#filter ul li{
+    display: inline;
+}
+form button{
+    border:none;
+    border-radius: auto 5% 5% auto;
+    background-color: var(--reservia-primary-blue);
+    color: #ffffff;
+}
