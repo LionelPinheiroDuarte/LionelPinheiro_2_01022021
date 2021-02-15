@@ -6,3 +6,33 @@
     border-radius: 4%;
     background-color: var(--reservia-background-color);
 }
+
+#popular-lodging div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#popular-lodging article{
+    display: flex;
+    width: 425px;
+    height: 150px;
+    padding:1%;
+}
+
+#popular-lodging article div{
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.fa-chart-line{
+    color: #000000;
+}
+
+.img-square{
+    width: 150px;
+    height: 150px;
+}
+
+.img-leftside-border-radius{
+    border-radius: 13% 0% 0% 13%;
+}

@@ -1,10 +1,28 @@
-#information{
-    padding:3% 4%;
-}   
+#information p:nth-child(2n){
+    font-size: 0.75em;
+    color: gray;
+}
+
+#information ::placeholder{
+    font-weight: bold;
+    color: black;
+}
+input{
+    width: 200px;
+    height: 29px;
+}
 button{
+    height: 35px;
     background-color:#ffffff;
-    border: 2px solid gray;
-    padding: 1%;
+    border: 2px solid var(--reservia-secondary-blue);
+    margin-right: 1%;
+    border-radius: 20px;
+}
+button i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--reservia-secondary-blue);
 }
 #filter{
     display: flex;
@@ -12,9 +30,30 @@ button{
 #filter ul li{
     display: inline;
 }
+form i{
+    border-radius: 5px 0px 0px 5px;
+    width: 50px;
+    height: 45px;
+    background-color:lightgray;
+}
 form button{
+    margin-left: -5px;
     border:none;
-    border-radius: auto 5% 5% auto;
+    border-radius: 0px 5px 5px 0px;
     background-color: var(--reservia-primary-blue);
     color: #ffffff;
+}
+#info{
+    display: flex;
+}
+#info p{
+    font-size: 0.75em;
+    color: gray;
+}
+
+#info i {
+    font-size: 0.25em;
+    padding:0.5%;
+    border: 1px solid var(--reservia-primary-blue);
+    border-radius: 50%;
 }

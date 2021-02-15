@@ -4,7 +4,7 @@
     background-color: var(--reservia-background-color);
 }
 .img-top-border-radius{
-    border-radius: 10% 10% 0% 0%;
+    border-radius: 13% 13% 0% 0%;
 }
 #articles{
     display: flex;
@@ -14,7 +14,12 @@
 article{
     margin-bottom: 2%;
 }
-.img-square{
-    width: 200px;
+.img-rectangle{
+    width: 250px;
     height: 100px;
+    object-fit: fill;
+}
+
+#lodging a{
+    color: black;
 }
