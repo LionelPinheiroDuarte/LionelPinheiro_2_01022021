@@ -90,3 +90,7 @@ article p span{
     color: black;
     font-weight: bold;
 }
+
+.fa-star-disabled{
+    color:var(--reservia-background-color);
+}

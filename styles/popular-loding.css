@@ -12,6 +12,7 @@
     justify-content: space-between;
 }
 
+
 #popular-lodging article{
     display: flex;
     width: 425px;
@@ -19,9 +20,19 @@
     padding:1%;
 }
 
+#popular-lodging .ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
 #popular-lodging article div{
     flex-direction: column;
     margin-left: 5%;
+}
+
+.information p{
+    margin-top: 0px;
 }
 
 .fa-chart-line{
