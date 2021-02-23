@@ -1,25 +1,40 @@
 #lodging{
-    padding:3% 4%;
-    border-radius: 4%;
-    background-color: var(--reservia-background-color);
+    padding:20px 10px;
 }
+#lodging h3{
+    margin-bottom: 5Px;
+    margin-top: 5px;
+}
+
 .img-top-border-radius{
-    border-radius: 13% 13% 0% 0%;
+    border-radius: 25px 25px 0px 0px;
 }
 #articles{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
+
 article{
-    margin-bottom: 2%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 90%;
 }
+
+article p{
+    margin-bottom: 5Px;
+    margin-top: 5px;
+}
+
 .img-rectangle{
-    width: 250px;
-    height: 100px;
+    width: 100%;
+    height: 125px;
     object-fit: fill;
 }
 
 #lodging a{
+    margin-top: 30px;
+    font-weight: bold;
     color: black;
 }

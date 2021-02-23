@@ -71,9 +71,6 @@ img{
 }
 
 article{
-    height: 215px;
-    width: 250px;
-    padding: 1%;
     box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
         -webkit-box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
         -moz-box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
