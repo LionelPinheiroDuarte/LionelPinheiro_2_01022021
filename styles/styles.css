@@ -53,7 +53,7 @@ header{
 }
 body{
     margin:auto;
-    width: 1335px;
+    max-width: 736px;
 }
 section{
     margin-bottom: 50px;
