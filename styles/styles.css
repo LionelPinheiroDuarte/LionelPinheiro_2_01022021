@@ -36,9 +36,6 @@ a:hover{
     color:var(--reservia-primary-blue);
 }
 
-h1,h2,h3,h4,h5,h6:first-letter{
-    text-transform: capitalize;
-}
 
 h1{
     color: var(--reservia-primary-blue);
@@ -53,7 +50,6 @@ header{
 }
 body{
     margin:auto;
-    max-width: 736px;
 }
 section{
     margin-bottom: 50px;
@@ -64,10 +60,6 @@ section a {
 }
 section a:hover {
     font-weight: bold;
-}
-img{
-    width: 100px;
-    height: 50px;
 }
 
 article{
