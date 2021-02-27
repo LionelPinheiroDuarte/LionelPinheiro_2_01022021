@@ -15,6 +15,16 @@
     justify-content: space-around;
 }
 
+#articles article{
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+article .content{
+    padding: 5px;
+}
+
 #lodging article p{
     margin-bottom: 5px;
     margin-top: 5px;
@@ -25,9 +35,11 @@
     height: 125px;
     object-fit: fill;
 }
+.see-more{
+    margin-top: 20px;
 
-#lodging a{
-    margin-top: 30px;
+}
+.see-more a{
     font-weight: bold;
     color: black;
 }
