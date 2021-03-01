@@ -22,13 +22,6 @@ a{
 ul{
     list-style: none;
 }
-i{
-    color: var(--reservia-primary-blue);
-}
-
-/* nav a:first-letter{
-    text-transform: uppercase;
-} */
 
 nav a{
     color:black;
@@ -65,6 +58,10 @@ article{
         -moz-box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
     background-color: #ffffff;
     border-radius: 25px;
+}
+
+article i{
+    color: var(--reservia-primary-blue);
 }
 article span{
     font-weight: bold;

@@ -7,7 +7,6 @@
     color: gray;
 }
 
-
 button{
     height: 35px;
     border: 2px solid var(--reservia-secondary-blue);
@@ -35,8 +34,6 @@ input{
     width: 190px;
     height: 30px;
     border:1px solid var(--reservia-background-color);
-    /* border: none; */
-
 }
 
 #search ::placeholder{
@@ -56,47 +53,46 @@ input{
     color:#ffffff;
 }
 /*--- Filter Rules --*/
-/* 
-button i{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--reservia-secondary-blue);
-}
-#filter{
+
+
+#filter ul{
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
 }
 #filter ul li{
-    display: inline;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-#search button{
-    border-radius: 10px 10px 10px 10px;
-    width: 35px;
-    height: 35px;
-    background-color: var(--reservia-primary-blue);
+#filter ul li button{
+    font-weight: bold;
+    background-color: #ffffff;
+    padding-right: 15px;
 }
-form button{
-    border-radius: 10px 10px 10px 10px;
-    width: 35px;
-    height: 35px;
-    background-color: var(--reservia-primary-blue);
-} */
+.fa-stack{
+    margin-top: -2px;
+    margin-left: -12px;
+}
+.fa-circle  {
+    color: var(--reservia-secondary-blue);
+}
+#filter .fas {
+    color: var(--reservia-primary-blue);
+}
 
 /*Information Rules*/
 
-#info{
+#info div{
     display: flex;
 }
-
+.fa-circle-thin{
+    color:tomato;
+}
+#info .fa-info{
+    color: var(--reservia-primary-blue);
+}
 #info p{
     font-size: 0.75em;
     color: gray;
-}
-
-#info i {
-    font-size: 0.25em;
-    padding:0.5%;
-    border: 1px solid var(--reservia-primary-blue);
-    border-radius: 50%;
 }
