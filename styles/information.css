@@ -9,7 +9,7 @@
 
 button{
     height: 35px;
-    border: 2px solid var(--reservia-secondary-blue);
+    border: 2px solid var(--reservia-background-color);
     border-radius: 20px;
 }
 /*--- Search Rules ---*/
@@ -83,14 +83,19 @@ input{
 
 /*Information Rules*/
 
-#info div{
+#info {
     display: flex;
+    margin-left: 20px;
 }
-.fa-circle-thin{
-    color:tomato;
+.fa-stack{
+    margin-right: 10px;
+}
+#info .fa-circle{
+    color: var(--reservia-background-color);
 }
 #info .fa-info{
     color: var(--reservia-primary-blue);
+    margin-left:12.5px;
 }
 #info p{
     font-size: 0.75em;
