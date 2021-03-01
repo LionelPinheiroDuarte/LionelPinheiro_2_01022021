@@ -1,0 +1,7 @@
+#activity{
+    padding: 20px 15px;
+}
+
+#activity img{
+    object-fit: cover;
+}
