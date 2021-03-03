@@ -10,11 +10,11 @@
 <body>
     <header>
         <h1>
-            <img src="./img/logo/Reservia@3x.png" alt="logo Reservia"/>
+            <img srcset="./img/logo/Reservia.svg"
+            src="./img/logo/Reservia@3x.png" alt="logo Reservia"/>
         </h1>
         <a href="">S'inscrire</a>
-    </header>
-    
+    </header>  
     <nav>
         <a href="#lodging">Hébergements</a>
         <a href="#popular-lodging">Activités</a>
@@ -92,8 +92,11 @@
             <div class="content">
                 <article>
                     <picture>
-                        <source srcset="./img/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" media="(min-width: 800px)">
-                        <img class="img-square img-leftside-border-radius" src="./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+                        <img class="img-square img-leftside-border-radius" 
+                        srcset="./img/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 3x,
+                                ./img/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 2x,
+                                ./img/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 1x,"
+                        src="./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
                     </picture>
                     <div>
                         <div class="information">
