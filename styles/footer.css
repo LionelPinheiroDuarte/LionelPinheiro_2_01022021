@@ -1,7 +1,7 @@
 footer{
     display: flex;
     flex-direction: column;
-    padding: 35px 30px;
+    padding: 35px 20px;
     justify-content: space-between;
     background-color: var(--reservia-background-color);
 }

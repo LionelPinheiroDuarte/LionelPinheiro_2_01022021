@@ -1,7 +1,7 @@
 /*----- Popular-Lodging Section-----*/
 #popular-lodging{
     background-color: var(--reservia-background-color);
-    padding: 20px 15px;
+    padding: var(--padding-section);
 }
 
 #popular-lodging  > div:first-child{

@@ -1,7 +1,7 @@
 /*----- Activity -----*/
 
 #activity{
-    padding: 20px 15px;
+    padding: var(--padding-section);
 }
 
 #activity article{
