@@ -31,6 +31,14 @@ a:hover{
     color:var(--reservia-primary-blue);
 }
 
+.card_link{
+    cursor:pointer;
+
+}
+
+.card_link:visited{
+    color: #000;
+}
 
 h1{
     color: var(--reservia-primary-blue);
