@@ -1,7 +1,37 @@
+/*----- Activity -----*/
+
 #activity{
     padding: 20px 15px;
 }
 
-#activity img{
-    object-fit: cover;
+#activity article{
+    margin-bottom: 15px;
 }
+
+#activity article .img{
+    height: 150px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+/*----- Activity Card TOPSIDE -----*/
+
+.img10{
+    background: url("./../img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+}
+.img11{
+    background: url("./../img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+}
+.img12{
+    background: url("./../img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+}
+.img13{
+    background: url("./../img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+}
+.img14{
+    background: url("./../img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+}
+.img15{
+    background: url("./../img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
+
+/*----- Activity Card BOTTOMSIDE-----*/
