@@ -27,13 +27,13 @@ ul{
 nav a{
     color:black;
 }
+
 a:hover{
     color:var(--reservia-primary-blue);
 }
 
 .card_link{
     cursor:pointer;
-
 }
 
 .card_link:visited{
