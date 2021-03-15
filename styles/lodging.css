@@ -47,6 +47,11 @@
 #articles article .img{
     height: 150px;
     border-radius: var(--borders-top-radius);
+<<<<<<< Updated upstream
+=======
+    background-repeat: no-repeat;
+    background-position: center;
+>>>>>>> Stashed changes
 }
 
 .img-rectangle{
