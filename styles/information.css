@@ -72,6 +72,12 @@ input{
     background-color: #ffffff;
     padding-right: 15px;
 }
+
+#filter ul li button:hover{
+    background-color:var(--reservia-primary-blue);
+    color: white;
+}
+
 .fa-stack{
     margin-top: -2px;
     margin-left: -12px;
