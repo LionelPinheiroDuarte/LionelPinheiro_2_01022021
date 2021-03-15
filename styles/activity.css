@@ -11,11 +11,8 @@
 #activity article .img{
     height: 140px;
     border-radius: var(--borders-top-radius);
-<<<<<<< Updated upstream
-=======
     background-repeat: no-repeat;
     background-position: center;
->>>>>>> Stashed changes
 }
 
 /*----- Activity Card TOPSIDE -----*/

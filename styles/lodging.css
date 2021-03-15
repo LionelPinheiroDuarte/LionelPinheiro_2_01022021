@@ -18,7 +18,7 @@
 }
 
 #articles article{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding: 5px;
 
 }
@@ -46,12 +46,10 @@
 
 #articles article .img{
     height: 150px;
+    flex-basis: 1;
     border-radius: var(--borders-top-radius);
-<<<<<<< Updated upstream
-=======
     background-repeat: no-repeat;
     background-position: center;
->>>>>>> Stashed changes
 }
 
 .img-rectangle{
