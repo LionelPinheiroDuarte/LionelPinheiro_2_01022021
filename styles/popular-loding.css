@@ -54,6 +54,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius:var(--borders-left-radius);
+    background-position: center;
 }
 
 /*--- Lodging Card RightSide ---*/
@@ -62,9 +63,6 @@
     flex-grow: 1;
     margin-left: 20px;
     padding: 10px 0 0 0;
-    /* height: 100px;
-    width: 100px;
-    background-color: red; */
 }
 .information p{
     margin-top: 0px;

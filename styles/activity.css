@@ -11,6 +11,7 @@
 #activity article .img{
     height: 150px;
     border-radius: var(--borders-top-radius);
+    background-position: center;
 }
 
 /*----- Activity Card TOPSIDE -----*/
