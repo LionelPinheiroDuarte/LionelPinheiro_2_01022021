@@ -55,9 +55,9 @@ section a:hover {
 }
 
 article{
-    box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
-        -webkit-box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
-        -moz-box-shadow: 8px 9px 17px 0px rgba(194,189,189,0.76);
+    box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
+        -webkit-box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
+        -moz-box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
     background-color: #ffffff;
     border-radius: 25px;
 }
