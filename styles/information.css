@@ -27,7 +27,7 @@ button{
 #search .icone i {
     color: #000000;
     margin-left: 12px;
-    margin-top: 9px;
+    margin-top: 8px;
 }
 
 input{
@@ -39,7 +39,7 @@ input{
 #search ::placeholder{
     font-weight: bold;
     color: black;
-    margin-left: 5px;
+    padding-left: 10px;
 }
 #search button{
     background-color: var(--reservia-primary-blue);
