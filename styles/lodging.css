@@ -18,7 +18,7 @@
 }
 
 #articles article{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding: 5px;
 
 }
@@ -45,8 +45,15 @@
 }
 
 #articles article .img{
+<<<<<<< HEAD
     height: 140px;
     border-radius: var(--borders-top-radius);
+=======
+    height: 150px;
+    flex-basis: 1;
+    border-radius: var(--borders-top-radius);
+    background-repeat: no-repeat;
+>>>>>>> Responsive
     background-position: center;
 }
 

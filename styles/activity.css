@@ -9,8 +9,12 @@
 }
 
 #activity article .img{
-    height: 150px;
+    height: 140px;
     border-radius: var(--borders-top-radius);
+<<<<<<< HEAD
+=======
+    background-repeat: no-repeat;
+>>>>>>> Responsive
     background-position: center;
 }
 

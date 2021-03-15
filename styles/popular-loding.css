@@ -30,8 +30,8 @@
 
 #popular-lodging article{
     display: flex;
-    margin-bottom: 15px;
-    padding: 5px 0 5px 5px;
+    margin-bottom: 20px;
+    padding: 5px;
 
 }
 
@@ -50,7 +50,7 @@
 
 
 .img{
-    flex-grow:3;
+    flex-basis: 40%;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius:var(--borders-left-radius);
@@ -60,7 +60,7 @@
 /*--- Lodging Card RightSide ---*/
 
 .information{
-    flex-grow: 1;
+    flex-shrink: 1;
     margin-left: 20px;
     padding: 10px 0 0 0;
 }
@@ -72,10 +72,6 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
-
-/* .container{
-    flex-grow: 1;
-} */
