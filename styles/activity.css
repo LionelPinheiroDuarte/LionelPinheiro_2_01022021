@@ -10,7 +10,7 @@
 
 #activity article .img{
     height: 150px;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: var(--borders-top-radius);
 }
 
 /*----- Activity Card TOPSIDE -----*/
