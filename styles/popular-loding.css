@@ -1,16 +1,19 @@
+/*----- Popular-Lodging Section-----*/
 #popular-lodging{
     background-color: var(--reservia-background-color);
     padding: 20px 15px;
 }
 
-#popular-lodging div{
+#popular-lodging  > div:first-child{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-#popular-lodging article div{
-    flex-direction: column;
+#popular-lodging h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 15ch;
 }
 
 #popular-lodging div > .fa-chart-line{
@@ -23,39 +26,58 @@
     flex-direction: column;
 }
 
-.content article{
-    margin-bottom: 10px;
-}
+/*--- Lodging Card ---*/
 
 #popular-lodging article{
     display: flex;
-    padding: 5px;
+    margin-bottom: 15px;
+    padding: 5px 0 5px 5px;
+
 }
 
-#popular-lodging h3{
-    margin-top: 5px;
-    margin-bottom: 10px;
+/*--- Lodging Card LeftSide ---*/
+
+
+.img1{
+    background: url("./../img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+}
+.img2{
+    background: url("./../img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+}
+.img3{
+    background: url("./../img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+}
+
+
+.img{
+    flex-grow:3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:20px 0px 0px 20px;
+}
+
+/*--- Lodging Card RightSide ---*/
+
+.information{
+    flex-grow: 1;
+    margin-left: 20px;
+    padding: 10px 0 0 0;
+    /* height: 100px;
+    width: 100px;
+    background-color: red; */
+}
+.information p{
+    margin-top: 0px;
 }
 
 #popular-lodging .ratings{
     display: flex;
     flex-direction: row;
     justify-content: start;
+    margin-top: 60px;
     margin-bottom: 10px;
 }
-.information{
-    margin-left: 10px;
-}
-.information p{
-    margin-top: 0px;
-}
 
-
-.img-square{
-    width: 150px;
-    height: 150px;
-}
-
-.img-leftside-border-radius{
-    border-radius:20px 0px 0px 20px;
-}
+/* .container{
+    flex-grow: 1;
+} */
