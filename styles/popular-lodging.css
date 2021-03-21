@@ -81,6 +81,15 @@
 /*---- Tablet version ----*/
 
 @media (min-width: 768px){
+    #popular-lodging{
+        margin: 0 10px;
+        border-radius: 20px;
+    }
+    #popular-lodging article{
+        display: flex;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
     .img1{
         background: url("./../img/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     }
@@ -90,9 +99,10 @@
     .img3{
         background: url("./../img/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     }
-    /* .img{
-        background-size: contain;
+    .img{
+        flex-basis: 60%;
+        background-size: cover;
         background-repeat: no-repeat;
-        flex-basis: 40%;
-    } */
+        background-position: center;
+    }
   }
