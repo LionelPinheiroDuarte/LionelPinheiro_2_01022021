@@ -44,6 +44,47 @@
 /*---- Tablet version ----*/
 
 @media (min-width: 768px){
+    #activity article{
+        margin: 0px;
+    }
+    #activity .img{
+        background-size: cover;
+    }
+    #activity div .img10{
+        height: 360px;
+    }
+    #activity div .img13{
+        height: 360px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 300px 1fr; 
+        grid-gap: 15px;
+        grid-template-areas:
+        'image1 image2'
+        'image1 image3'
+        'image4 image5'
+        'image4 image6'
+        ;
+    }
+    .card_1{
+        grid-area: image1;
+    }
+    .card_2{
+        grid-area: image2;
+    }
+    .card_3{
+        grid-area: image3;
+    }
+    .card_4{
+        grid-area: image4;
+    }
+    .card_5{
+        grid-area: image5;
+    }
+    .card_6{
+        grid-area: image6;
+    }
     .img10{
         background: url("./../img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     }
@@ -62,9 +103,4 @@
     .img15{
         background: url("./../img/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     }
-    /* .img{
-        background-size: contain;
-        background-repeat: no-repeat;
-        flex-basis: 40%;
-    } */
   }
