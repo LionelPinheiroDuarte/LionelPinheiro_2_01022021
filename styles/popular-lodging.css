@@ -99,7 +99,7 @@
     .img3{
         background: url("./../img/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     }
-    .img{
+    #popular-lodging .img{
         flex-basis: 60%;
         background-size: cover;
         background-repeat: no-repeat;

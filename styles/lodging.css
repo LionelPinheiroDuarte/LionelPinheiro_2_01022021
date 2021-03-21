@@ -82,6 +82,18 @@ article .content{
 /*---- Tablet version ----*/
 
 @media (min-width: 768px){
+    #lodging{
+        margin: 0 10px;
+    }
+    #articles{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #articles article{
+        width: 340px;
+    }
     .img4{
         background: url("./../img/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     }
@@ -100,9 +112,7 @@ article .content{
     .img9{
         background: url("./../img/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     }
-    /* .img{
-        background-size: contain;
-        background-repeat: no-repeat;
-        flex-basis: 40%;
-    } */
+    #lodging .img{
+        background-position: ;
+    }
   }
