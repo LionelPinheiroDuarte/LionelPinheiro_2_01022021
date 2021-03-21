@@ -93,7 +93,7 @@ input{
 
 #info {
     display: flex;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .fa-stack{
     margin-right: 10px;
@@ -103,10 +103,20 @@ input{
 }
 #info .fa-info{
     color: var(--reservia-primary-blue);
-    margin-left:12.5px;
+    margin-left:42%;
 }
 #info p{
     margin-top: 5px;
     font-size: 0.75em;
     color: gray;
+}
+
+
+/*---- Responsive ----*/
+/*---- Tablet version ----*/
+@media (min-width: 768px){
+    #info{
+        margin-left:10px
+    }
+
 }
