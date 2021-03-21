@@ -22,3 +22,12 @@ footer ul li:first {
 footer li a{
     color:black;
 }
+
+/*---- Responsive ----*/
+/*---- Tablet version ----*/
+
+@media (min-width: 768px){
+    footer{
+        flex-direction: row;
+    }
+  }
