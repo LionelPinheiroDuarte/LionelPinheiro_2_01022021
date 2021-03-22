@@ -112,7 +112,25 @@ article .content{
     .img9{
         background: url("./../img/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     }
-    #lodging .img{
-        background-position: ;
+}
+
+/*---- Responsive ----*/
+/*---- Tablet version ----*/
+
+@media (min-width: 1024px){
+    #lodging{
+        margin: 0 10px;
+    }
+    #lodgin h2{
+        margin-left: 15px;
+    }
+    #articles{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #articles article{
+        width: 265px;
     }
   }

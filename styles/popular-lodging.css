@@ -113,4 +113,17 @@
         flex-direction: column;
         justify-content: space-between;
     }
-  }
+}
+
+@media (min-width: 1024px){
+    #popular-lodging article > .img1, .img2, .img3{
+        width: 130px;
+        height: 130px;
+    }
+    #popular-lodging article{
+        width: 320px;
+    }
+    #popular-lodging .ratings {
+        margin-top: 0px;
+    }
+}

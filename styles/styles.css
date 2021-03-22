@@ -1,5 +1,6 @@
 @import 'variables.css';
 @import 'header.css';
+@import 'test.css';
 @import 'information.css';
 @import 'lodging.css';
 @import 'popular-lodging.css';
@@ -86,4 +87,10 @@ article p span {
 
 .fa-star-disabled{
     color:var(--reservia-background-color);
+}
+
+@media (min-width: 1024px){
+    /* main{
+        margin: 0 20px;
+    } */
 }
