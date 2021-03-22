@@ -90,6 +90,9 @@
         margin-bottom: 20px;
         padding: 5px;
     }
+    #popular-lodging article > .img1, .img2, .img3{
+        height: 200px;
+    }
     .img1{
         background: url("./../img/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     }
@@ -104,5 +107,10 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+    }
+    #popular-lodging .information{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
   }
