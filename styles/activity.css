@@ -91,4 +91,34 @@
     .card_6{
         grid-area: image6;
     }
-  }
+}
+
+/*---- Desktop version ----*/
+
+@media (min-width: 1024px){
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-gap: 15px;
+        grid-template-areas:
+        'image1 image2 image4 image5'
+        'image1 image3 image4 image6'
+        ;
+    }
+    #activity div .img10{
+        height: 380px;
+    }
+    #activity div .img11{
+        height: 140px;
+    }
+    #activity div .img12{
+        height: 140px;
+    }
+    #activity div .img13{
+        height: 360px;
+    }
+    #activity div .img16{
+        height: 140px;
+    }
+}
