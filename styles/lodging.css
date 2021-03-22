@@ -94,24 +94,6 @@ article .content{
     #articles article{
         width: 340px;
     }
-    .img4{
-        background: url("./../img/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    }
-    .img5{
-        background: url("./../img/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    }
-    .img6{
-        background: url("./../img/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    }
-    .img7{
-        background: url("./../img/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-    }
-    .img8{
-        background: url("./../img/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-    }
-    .img9{
-        background: url("./../img/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    }
 }
 
 /*---- Responsive ----*/

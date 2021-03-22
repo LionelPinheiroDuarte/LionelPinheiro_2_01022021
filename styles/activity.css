@@ -21,7 +21,7 @@
     background: url("./../img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 }
 .img11{
-    background: url("./../img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background: url("./../img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 }
 .img12{
     background: url("./../img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
@@ -90,23 +90,5 @@
     }
     .card_6{
         grid-area: image6;
-    }
-    .img10{
-        background: url("./../img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    }
-    .img11{
-        background: url("./../img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    }
-    .img12{
-        background: url("./../img/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    }
-    .img13{
-        background: url("./../img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    }
-    .img14{
-        background: url("./../img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    }
-    .img15{
-        background: url("./../img/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     }
   }
