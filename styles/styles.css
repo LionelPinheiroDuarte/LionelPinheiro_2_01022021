@@ -1,96 +1,99 @@
-@import 'variables.css';
-@import 'header.css';
-@import 'test.css';
-@import 'information.css';
-@import 'lodging.css';
-@import 'popular-lodging.css';
-@import 'activity.css';
-@import 'footer.css';
+@import "variables.css";
+@import "header.css";
+@import "test.css";
+@import "information.css";
+@import "lodging.css";
+@import "popular-lodging.css";
+@import "activity.css";
+@import "footer.css";
 
-@font-face{
-    font-family: 'Raleway';
-    src: url('./fonts/Raleway-Regular.ttf') format('truetype'),
-         url('./fonts/Raleway-bold.ttf') format('truetype');      
+@font-face {
+  font-family: "Raleway";
+  src: url("./fonts/Raleway-Regular.ttf") format("truetype"),
+    url("./fonts/Raleway-bold.ttf") format("truetype");
 }
 
-body{
-    font-family: 'Raleway';
+body {
+  font-family: "Raleway";
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-nav a{
-    color:black;
+nav a {
+  color: black;
 }
 
-a:hover{
-    color:var(--reservia-primary-blue);
+a:hover {
+  color: var(--reservia-primary-blue);
 }
 
-.card_link{
-    cursor:pointer;
+.card_link {
+  cursor: pointer;
 }
 
-.card_link:visited{
-    color: #000;
+.card_link:visited {
+  color: #000;
 }
 
-h1{
-    color: var(--reservia-primary-blue);
+h1 {
+  color: var(--reservia-primary-blue);
 }
 
 p {
-    font-weight: bold;
-    font-size: 1em;
+  font-weight: bold;
+  font-size: 1em;
 }
-body{
-    margin:auto;
+body {
+  margin: auto;
 }
-section{
-    margin-bottom: 50px;
+section {
+  margin-bottom: 50px;
 }
 
 section a {
-    font-weight: bold;
+  font-weight: bold;
 }
 section a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-article{
-    box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
-        -webkit-box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
-        -moz-box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
-    background-color: #ffffff;
-    border-radius: 25px;
+article {
+  box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
+  -webkit-box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
+  -moz-box-shadow: 0 7px 7px rgba(214, 211, 211, 0.76);
+  background-color: #ffffff;
+  border-radius: 25px;
 }
 
-article i{
-    color: var(--reservia-primary-blue);
+article i {
+  color: var(--reservia-primary-blue);
 }
-article span{
-    font-weight: bold;
+article span {
+  font-weight: bold;
 }
-article p{
-    color: gray;
+article p {
+  color: gray;
 }
 article p span {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
-.fa-star-disabled{
-    color:var(--reservia-background-color);
+.fa-star-disabled {
+  color: var(--reservia-background-color);
 }
 
-@media (min-width: 1024px){
-    /* main{
+@media (min-width: 1024px) {
+  /* main{
         margin: 0 20px;
     } */
+  body {
+    max-width: 1400px;
+  }
 }
