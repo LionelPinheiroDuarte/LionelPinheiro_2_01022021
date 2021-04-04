@@ -1,124 +1,111 @@
 /*----- Activity -----*/
 
-#activity{
-    padding: var(--padding-section);
+#activity {
+  padding: var(--padding-section);
 }
 
-#activity article{
-    margin-bottom: 20px;
+#activity article {
+  margin-bottom: 20px;
 }
 
-#activity article .img{
-    height: 140px;
-    border-radius: var(--borders-top-radius);
-    background-repeat: no-repeat;
-    background-position: center;
+#activity article .img {
+  height: 140px;
+  border-radius: var(--borders-top-radius);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*----- Activity Card TOPSIDE -----*/
 
-.img10{
-    background: url("./../img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+.img10 {
+  background: url("./../img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 }
-.img11{
-    background: url("./../img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+.img11 {
+  background: url("./../img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 }
-.img12{
-    background: url("./../img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+.img12 {
+  background: url("./../img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
 }
-.img13{
-    background: url("./../img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+.img13 {
+  background: url("./../img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
 }
-.img14{
-    background: url("./../img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+.img14 {
+  background: url("./../img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 }
-.img15{
-    background: url("./../img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+.img15 {
+  background: url("./../img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 }
 
 /*----- Activity Card BOTTOMSIDE-----*/
 
-
-
 /*---- Responsive ----*/
 /*---- Tablet version ----*/
 
-@media (min-width: 768px){
-    #activity article{
-        margin: 0px;
-    }
-    #activity .img{
-        background-size: cover;
-    }
-    #activity div .img10{
-        height: 360px;
-    }
-    #activity div .img11{
-        height: 160px;
-    }
-    #activity div .img12{
-        height: 120px;
-    }
-    #activity div .img13{
-        height: 360px;
-    }
-    .wrapper{
-        display: grid;
-        grid-template-columns: 300px 1fr; 
-        grid-gap: 15px;
-        grid-template-areas:
-        'image1 image2'
-        'image1 image3'
-        'image4 image5'
-        'image4 image6'
-        ;
-    }
-    .card_1{
-        grid-area: image1;
-    }
-    .card_2{
-        grid-area: image2;
-    }
-    .card_3{
-        grid-area: image3;
-    }
-    .card_4{
-        grid-area: image4;
-    }
-    .card_5{
-        grid-area: image5;
-    }
-    .card_6{
-        grid-area: image6;
-    }
+@media (min-width: 768px) {
+  #activity article {
+    margin: 0px;
+  }
+  #activity .img {
+    background-size: cover;
+  }
+  #activity div .img10 {
+    height: 375px;
+  }
+  /* #activity div .img11 {
+    height: 180px;
+  }
+  #activity div .img12 {
+    height: 100px;
+  } */
+  #activity div .img13 {
+    height: 375px;
+  }
+  /* #activity div .img14 {
+    height: 100px;
+  }
+  #activity div .img15 {
+    height: 100px;
+  } */
+  .wrapper {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+      "image1 image2"
+      "image1 image3"
+      "image4 image5"
+      "image4 image6";
+  }
+  .card_1 {
+    grid-area: image1;
+  }
+  .card_2 {
+    grid-area: image2;
+  }
+  .card_3 {
+    grid-area: image3;
+  }
+  .card_4 {
+    grid-area: image4;
+  }
+  .card_5 {
+    grid-area: image5;
+  }
+  .card_6 {
+    grid-area: image6;
+  }
 }
 
 /*---- Desktop version ----*/
 
-@media (min-width: 1024px){
-
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr; 
-        grid-gap: 15px;
-        grid-template-areas:
-        'image1 image2 image4 image5'
-        'image1 image3 image4 image6'
-        ;
-    }
-    #activity div .img10{
-        height: 380px;
-    }
-    #activity div .img11{
-        height: 140px;
-    }
-    #activity div .img12{
-        height: 140px;
-    }
-    #activity div .img13{
-        height: 360px;
-    }
-    #activity div .img16{
-        height: 140px;
-    }
+@media (min-width: 1024px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: auto;
+    grid-column-gap: 30px;
+    grid-template-areas:
+      "image1 image2 image4 image5"
+      "image1 image3 image4 image6";
+  }
 }
