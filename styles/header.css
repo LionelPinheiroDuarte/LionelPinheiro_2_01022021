@@ -1,65 +1,78 @@
-header{
-
+header {
 }
 
 header a {
-    font-weight: bold;
-    color: var(--reservia-primary-blue);
-    margin-top: 0px;
+  font-weight: bold;
+  color: var(--reservia-primary-blue);
+  margin-top: 0px;
 }
 
 h1 img {
-    width: 100px;
-    position:absolute;
-    float: left;
-    margin-left: 15px;
+  width: 100px;
+  position: absolute;
+  float: left;
+  margin-left: 15px;
 }
 
-.tmenu{
-    text-align: end;
-    padding:var(--padding-section);
+.tmenu {
+  text-align: end;
+  padding: var(--padding-section);
 }
 
-#testnav{
-    margin-top: 40px;
+#testnav {
+  margin-top: 40px;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
+nav {
+  display: flex;
+  justify-content: space-around;
 }
 
-nav a{
-    width: 100%;
-    text-align: center;
-    border-bottom: 3px solid var(--reservia-background-color);
-    padding-bottom: 10px;
+nav a {
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid var(--reservia-background-color);
+  padding-bottom: 10px;
 }
-nav a:hover{
-    color:var(--reservia-primary-blue);
-    border-bottom: 3px solid var(--reservia-primary-blue);
+nav a:hover {
+  color: var(--reservia-primary-blue);
+  border-bottom: 3px solid var(--reservia-primary-blue);
 }
 
 /*-----  Responsive -----*/
 /*--- Desktop ---*/
 
-/* @media (min-width: 1024px){
-    #testnav{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: baseline;
-    }
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  h1 img {
+    position: unset;
+    float: unset;
+    margin-left: 0px;
+  }
+  #navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .tmenu {
+    text-align: unset;
+    padding: 0px;
+    margin-bottom: 9px;
+  }
+  #testnav {
+    margin-top: unset;
+  }
+  #testnav nav a {
+    margin-right: 40px;
+    border-bottom: none;
+  }
 
-    #testnav nav a{
-        margin-right: 40px;
-        border-bottom: none;
-        /* padding-top: 50px; */
-    }
-
-    #testnav nav a:hover{
-        margin-right: 40px;
-        border-top: 3px solid var(--reservia-primary-blue);
-        
-        border-bottom: none;
-        /* padding-top: 50px; */
-    }
-} */
+  #testnav nav a:hover {
+    margin-right: 40px;
+    border-top: 3px solid var(--reservia-primary-blue);
+    border-bottom: none;
+  }
+}
