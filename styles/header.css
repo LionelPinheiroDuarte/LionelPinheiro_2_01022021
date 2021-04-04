@@ -1,8 +1,10 @@
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 15px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+    padding: var(--padding-section);
+
 }
 
 header a {
@@ -13,8 +15,19 @@ header a {
 
 h1 img {
     width: 100px;
+    position:absolute;
+    float: left;
 }
 
+.tmenu{
+    text-align: end;
+    margin-top: 30px;
+    padding-top: 6px;
+}
+
+#testnav{
+    margin-top: 40px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -30,3 +43,28 @@ nav a:hover{
     color:var(--reservia-primary-blue);
     border-bottom: 3px solid var(--reservia-primary-blue);
 }
+
+/*-----  Responsive -----*/
+/*--- Desktop ---*/
+
+/* @media (min-width: 1024px){
+    #testnav{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
+    }
+
+    #testnav nav a{
+        margin-right: 40px;
+        border-bottom: none;
+        /* padding-top: 50px; */
+    }
+
+    #testnav nav a:hover{
+        margin-right: 40px;
+        border-top: 3px solid var(--reservia-primary-blue);
+        
+        border-bottom: none;
+        /* padding-top: 50px; */
+    }
+} */
