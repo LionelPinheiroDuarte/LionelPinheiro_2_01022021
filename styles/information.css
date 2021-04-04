@@ -1,132 +1,150 @@
 /*----- Information Section -----*/
 
-#information{
-    padding: 20px 15px;
+#information {
+  padding: 20px 15px;
 }
 
-#information p:nth-child(2n){
-    font-size: 0.75em;
-    color: gray;
+#information p:nth-child(2n) {
+  font-size: 0.75em;
+  color: gray;
 }
 
-button{
-    height: 35px;
-    border: 2px solid var(--reservia-background-color);
-    border-radius: 20px;
+button {
+  height: 35px;
+  border: 2px solid var(--reservia-background-color);
+  border-radius: 20px;
 }
 /*--- Search Rules ---*/
 
 #search .icone {
-    display: inline-block;
-    margin-top: 3px;
-    margin-right: -4px;
-    width: 35px;
-    height: 35px;
-    background-color: var(--reservia-background-color);
-    border-radius: 10px 0px 0px 10px;
+  display: inline-block;
+  margin-top: 3px;
+  margin-right: -4px;
+  width: 35px;
+  height: 35px;
+  background-color: var(--reservia-background-color);
+  border-radius: 10px 0px 0px 10px;
 }
 
 #search .icone i {
-    color: #000000;
-    margin-left: 12px;
-    margin-top: 8px;
+  color: #000000;
+  margin-left: 12px;
+  margin-top: 8px;
 }
 
-input{
-    width: 190px;
-    height: 30px;
-    border:1px solid var(--reservia-background-color);
+input {
+  width: 190px;
+  height: 30px;
+  border: 1px solid var(--reservia-background-color);
 }
 
-#search ::placeholder{
-    font-weight: bold;
-    color: black;
-    padding-left: 10px;
+#search ::placeholder {
+  font-weight: bold;
+  color: black;
+  padding-left: 10px;
 }
-#search button{
-    background-color: var(--reservia-primary-blue);
-    width: 40px;
-    height: 40px;
-    border-radius: 12px;
-    margin-left: -19px;
+#search button {
+  background-color: var(--reservia-primary-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  margin-left: -19px;
+  /* visibility: hidden; */
+}
+#search button:after {
+  content: "";
 }
 
 #search button i {
-    color:#ffffff;
+  color: #ffffff;
 }
 /*--- Filter Rules --*/
 
-
-#filter ul{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0px;
+#filter ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
 }
-#filter ul li{
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-#filter ul li button{
-    font-weight: bold;
-    background-color: #ffffff;
-    padding-right: 15px;
+#filter ul li {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-#filter ul li button:hover{
-    background-color:var(--reservia-primary-blue);
-    color: white;
+#filter ul li button {
+  font-weight: bold;
+  background-color: #ffffff;
+  padding-right: 15px;
 }
 
-.fa-stack{
-    margin-top: -2px;
-    margin-left: -12px;
+#filter ul li button:hover {
+  background-color: var(--reservia-primary-blue);
+  color: white;
 }
-.fa-circle  {
-    color: var(--reservia-secondary-blue);
+
+.fa-stack {
+  margin-top: -2px;
+  margin-left: -12px;
+}
+.fa-circle {
+  color: var(--reservia-secondary-blue);
 }
 #filter .fas {
-    color: var(--reservia-primary-blue);
+  color: var(--reservia-primary-blue);
 }
 
 /*Information Rules*/
 
 #info {
-    display: flex;
-    margin-left: 15px;
+  display: flex;
+  margin-left: 15px;
 }
-.fa-stack{
-    margin-right: 10px;
+.fa-stack {
+  margin-right: 10px;
 }
-#info .fa-circle{
-    color: var(--reservia-background-color);
+#info .fa-circle {
+  color: var(--reservia-background-color);
 }
-#info .fa-info{
-    color: var(--reservia-primary-blue);
-    margin-left:42%;
+#info .fa-info {
+  color: var(--reservia-primary-blue);
+  margin-left: 42%;
 }
-#info p{
-    margin-top: 5px;
-    font-size: 0.75em;
-    color: gray;
+#info p {
+  margin-top: 5px;
+  font-size: 0.75em;
+  color: gray;
 }
-
 
 /*---- Responsive ----*/
 /*---- Tablet version ----*/
-@media (min-width: 768px){
-    #info{
-        margin-left:10px
-    }
-
+@media (min-width: 768px) {
+  #info {
+    margin-left: 10px;
+  }
 }
 
-@media(min-width:1024px){
-   #filter{
+@media (min-width: 1024px) {
+  #filter {
     display: flex;
     align-items: baseline;
-   }
-   #filter p{
+  }
+  #filter p {
     margin-right: 40px;
-   }
+  }
+  #search button i {
+  }
+  #search button i::before {
+    display: none;
+  }
+  #search button i::after {
+    content: "Rechercher";
+    font-family: "Raleway";
+    padding: 5px 10px;
+    color: #ffffff;
+  }
+  #search button {
+    border-radius: 0px 12px 12px 0px;
+    width: auto;
+    height: 38px;
+    color: #ffffff;
+  }
 }
