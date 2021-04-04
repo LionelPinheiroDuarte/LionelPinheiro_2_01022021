@@ -52,9 +52,9 @@ p {
 body {
   margin: auto;
 }
-section {
+/* section {
   margin-bottom: 50px;
-}
+} */
 
 section a {
   font-weight: bold;
