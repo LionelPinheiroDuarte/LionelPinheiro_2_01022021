@@ -1,9 +1,4 @@
 header{
-    /* display: flex; */
-    /* align-items: center; */
-    /* flex-wrap: wrap;
-    justify-content: space-between; */
-    padding: var(--padding-section);
 
 }
 
@@ -17,12 +12,12 @@ h1 img {
     width: 100px;
     position:absolute;
     float: left;
+    margin-left: 15px;
 }
 
 .tmenu{
     text-align: end;
-    margin-top: 30px;
-    padding-top: 6px;
+    padding:var(--padding-section);
 }
 
 #testnav{
