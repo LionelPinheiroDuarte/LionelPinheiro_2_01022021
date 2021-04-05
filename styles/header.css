@@ -1,5 +1,4 @@
-header {
-}
+/*----- Header Section -----*/
 
 header a {
   font-weight: bold;
@@ -14,14 +13,6 @@ h1 img {
   margin-left: 15px;
 }
 
-.tmenu {
-  text-align: end;
-  padding: var(--padding-section);
-}
-
-#testnav {
-  margin-top: 40px;
-}
 nav {
   display: flex;
   justify-content: space-around;
@@ -36,6 +27,15 @@ nav a {
 nav a:hover {
   color: var(--reservia-primary-blue);
   border-bottom: 3px solid var(--reservia-primary-blue);
+}
+
+#top-menu {
+  text-align: end;
+  padding: var(--padding-section);
+}
+
+#bottom-menu {
+  margin-top: 40px;
 }
 
 /*-----  Responsive -----*/
@@ -57,30 +57,26 @@ nav a:hover {
     flex-direction: row-reverse;
     align-items: center;
   }
-  .tmenu {
+  #top-menu {
     text-align: unset;
     padding: 0px;
     margin-bottom: 45px;
   }
-  #testnav {
+  #bottom-menu {
     margin-top: unset;
   }
 
-  #testnav nav a {
+  #bottom-menu nav a {
     margin-right: 40px;
     border-bottom: none;
     height: 100px;
     padding: 35px 20px 0px 20px;
   }
 
-  #testnav nav a:hover {
-    /* height: 97px; */
+  #bottom-menu nav a:hover {
     margin-right: 40px;
     border-top: 3px solid var(--reservia-primary-blue);
     border-bottom: none;
     padding: 32px 20px 0px 20px;
-  }
-
-  button input[type="submit"] {
   }
 }
