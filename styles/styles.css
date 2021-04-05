@@ -49,16 +49,15 @@ p {
   font-weight: bold;
   font-size: 1em;
 }
+
 body {
   margin: auto;
 }
-/* section {
-  margin-bottom: 50px;
-} */
 
 section a {
   font-weight: bold;
 }
+
 section a:hover {
   font-weight: bold;
 }
@@ -74,12 +73,15 @@ article {
 article i {
   color: var(--reservia-primary-blue);
 }
+
 article span {
   font-weight: bold;
 }
+
 article p {
   color: gray;
 }
+
 article p span {
   color: black;
   font-weight: bold;
@@ -89,10 +91,9 @@ article p span {
   color: var(--reservia-background-color);
 }
 
+/*---- Responsive ----*/
+/*---- Desktop version ----*/
 @media (min-width: 1024px) {
-  /* main{
-        margin: 0 20px;
-    } */
   body {
     max-width: 1400px;
   }
