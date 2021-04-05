@@ -10,13 +10,13 @@
 
 /*--- Lodging Card ---*/
 
-#articles {
+#lodging-cards {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-#articles article {
+#lodging-cards article {
   margin-bottom: 20px;
   padding: 5px;
 }
@@ -42,7 +42,7 @@
   background: url("./../img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 
-#articles article .img {
+#lodging-cards article .img {
   height: 150px;
   border-radius: var(--borders-top-radius);
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@
   object-fit: fill;
 }
 
-/*--- Lodging Card BOTTOMSID---*/
+/*--- Lodging Card BOTTOMSIDE---*/
 
 article .content {
   padding: 5px 0 0 15px;
@@ -81,13 +81,15 @@ article .content {
   #lodging {
     margin: 0 10px;
   }
-  #articles {
+
+  #lodging-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  #articles article {
+
+  #lodging-cards article {
     width: 340px;
   }
 }
@@ -99,16 +101,19 @@ article .content {
   #lodging {
     margin: 0 10px;
   }
+
   #lodgin h2 {
     margin-left: 15px;
   }
-  #articles {
+
+  #lodging-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  #articles article {
+
+  #lodging-cards article {
     width: 265px;
   }
 }
