@@ -1,0 +1,14 @@
+/*-----  Responsive -----*/
+/*--- Desktop ---*/
+
+@media (min-width: 1024px) {
+  #lodging-wrapper {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #lodging {
+    background-color: var(--reservia-background-color);
+    border-radius: 25px;
+  }
+}
