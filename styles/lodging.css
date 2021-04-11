@@ -117,6 +117,10 @@ article .content {
     width: 265px;
   }
 
+  #lodging-cards article .img {
+    height: 115px;
+  }
+
   .see-more {
     margin-left: 30px;
   }
