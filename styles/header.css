@@ -29,6 +29,11 @@ nav a:hover {
   border-bottom: 3px solid var(--reservia-primary-blue);
 }
 
+nav a:active {
+  color: var(--reservia-primary-blue);
+  border-bottom: 3px solid var(--reservia-primary-blue);
+}
+
 #top-menu {
   text-align: end;
   padding: var(--padding-section);
@@ -39,9 +44,9 @@ nav a:hover {
 }
 
 /*-----  Responsive -----*/
-/*--- Desktop ---*/
+/*--- Tablet ---*/
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -57,11 +62,13 @@ nav a:hover {
     flex-direction: row-reverse;
     align-items: center;
   }
+
   #top-menu {
     text-align: unset;
     padding: 0px;
     margin-bottom: 45px;
   }
+
   #bottom-menu {
     margin-top: unset;
   }
@@ -74,6 +81,31 @@ nav a:hover {
   }
 
   #bottom-menu nav a:hover {
+    margin-right: 40px;
+    border-top: 3px solid var(--reservia-primary-blue);
+    border-bottom: none;
+    padding: 32px 20px 0px 20px;
+  }
+
+  #bottom-menu nav a:active {
+    margin-right: 40px;
+    border-top: 3px solid var(--reservia-primary-blue);
+    border-bottom: none;
+    padding: 32px 20px 0px 20px;
+  }
+}
+
+/*--- Desktop ---*/
+
+@media (min-width: 1024px) {
+  #bottom-menu nav a:hover {
+    margin-right: 40px;
+    border-top: 3px solid var(--reservia-primary-blue);
+    border-bottom: none;
+    padding: 32px 20px 0px 20px;
+  }
+
+  #bottom-menu nav a:active {
     margin-right: 40px;
     border-top: 3px solid var(--reservia-primary-blue);
     border-bottom: none;

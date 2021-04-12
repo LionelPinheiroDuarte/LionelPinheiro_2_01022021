@@ -30,7 +30,7 @@
   background: url("./../img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
 }
 .img6 {
-  background: url("./../img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  background: url("./../img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 }
 .img7 {
   background: url("./../img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
@@ -47,6 +47,7 @@
   border-radius: var(--borders-top-radius);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .img-rectangle {
