@@ -9,7 +9,6 @@
 }
 
 #activity article .img {
-  height: 140px;
   border-radius: var(--borders-top-radius);
   background-repeat: no-repeat;
   background-position: center;
@@ -48,21 +47,21 @@
 
 @media (min-width: 768px) {
   #activity article {
+    display: flex;
+    flex-direction: column;
     margin: 0px;
+    min-height: 100%;
   }
-
-  /* #activity article .img {
-    background-size: cover;
-    background-position: center;
-    background-size: cover;
-  } */
+  #activity article .img {
+    flex-grow: 1;
+    flex-basis: 140px;
+  }
 
   #activity-cards {
     display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(auto-fill); */
-    grid-auto-rows: max-content;
-    grid-gap: 15px;
     grid-template-areas:
       "image1 image2"
       "image1 image3"
@@ -94,11 +93,11 @@
 @media (min-width: 1024px) {
   #activity-cards {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, auto);
-    grid-column-gap: 30px;
-    grid-row-gap: 10px;
+    grid-gap: 30px;
     grid-template-areas:
       "image1 image2 image4 image5"
+      "image1 image2 image4 image5"
+      "image1 image2 image4 .  "
       "image1 image3 image4 image6";
   }
 }
